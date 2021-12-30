@@ -1,0 +1,27 @@
+use_frameworks!
+
+platform :ios, '9.0'
+source 'https://code.addcn.com/app/iOS/SRIMProjectSpec'
+source 'https://github.com/CocoaPods/Specs.git'
+target 'SRIMProject_Example' do
+  pod 'SRIMProject', :path => '../'
+  pod 'XPPresentModal'
+  pod 'HHTransition', '~> 2.0.1'
+  target 'SRIMProject_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+post_install do |installer|
+    dir_web = File.join(installer.sandbox.pod_dir('AFNetworking'), 'UIKit+AFNetworking')
+    Dir.foreach(dir_web) {|x|
+      real_path = File.join(dir_web, x)
+      if (!File.directory?(real_path) && File.exists?(real_path))
+        if(x == 'UIWebView+AFNetworking.h' || x == 'UIWebView+AFNetworking.m' || x == 'UIKit+AFNetworking.h')
+          File.delete(real_path)
+        end
+      end
+    }
+end

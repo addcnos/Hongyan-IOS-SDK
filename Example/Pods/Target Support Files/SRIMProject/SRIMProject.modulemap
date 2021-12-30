@@ -1,0 +1,6 @@
+framework module SRIMProject {
+  umbrella header "SRIMProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
