@@ -1,6 +1,7 @@
 ## 数睿鸿雁SDK Objective-C文档
-![LICENSE](https://img.shields.io/badge/license-MIT-green)
+![LICENSE](https://img.shields.io/badge/License-MIT-orange)
 ![Language](https://img.shields.io/badge/Language-Objective--C-blue.svg)
+![Stable](https://img.shields.io/badge/Stable-v1.4.5-brightgreen.svg)
 
 #### SDK概述
 
