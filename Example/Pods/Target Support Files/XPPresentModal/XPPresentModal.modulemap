@@ -1,0 +1,6 @@
+framework module XPPresentModal {
+  umbrella header "XPPresentModal-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SRIMProject
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/PINCache" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket" "${PODS_CONFIGURATION_BUILD_DIR}/TTTAttributedLabel" "${PODS_CONFIGURATION_BUILD_DIR}/TWSecurityUtil" "${PODS_CONFIGURATION_BUILD_DIR}/UITableView+FDTemplateLayoutCell" "${PODS_CONFIGURATION_BUILD_DIR}/ZQAlertController"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MJExtension" -framework "MJRefresh" -framework "Masonry" -framework "MobileCoreServices" -framework "PINCache" -framework "QuartzCore" -framework "SDWebImage" -framework "Security" -framework "SocketRocket" -framework "SystemConfiguration" -framework "TTTAttributedLabel" -framework "TWSecurityUtil" -framework "UIKit" -framework "UITableView_FDTemplateLayoutCell" -framework "ZQAlertController" -weak_framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
