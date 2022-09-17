@@ -1,7 +1,7 @@
 use_frameworks!
 
 platform :ios, '9.0'
-source 'https://www.example.com/app/iOS/SRIMProjectSpec'
+#source 'https://www.example.com/app/iOS/SRIMProjectSpec'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'SRIMProject_Example' do
   pod 'SRIMProject', :path => '../'

@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
     
     s.description      = '数睿IM核心基础库'
     
-    s.homepage         = 'https://www.example.com/app/iOS/SRIMProject'
+    s.homepage         = 'https://github.com/addcnos/Hongyan-IOS-SDK'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'addcnos' => '' }
-    s.source           = { :git => 'https://www.example.com/app/iOS/SRIMProject.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/addcnos/Hongyan-IOS-SDK.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     # 支持的版本号
     s.platform      = :ios, '9.0'

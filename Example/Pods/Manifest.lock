@@ -129,7 +129,7 @@ DEPENDENCIES:
   - XPPresentModal
 
 SPEC REPOS:
-  https://www.example.com/app/iOS/SRIMProjectSpec:
+  https://code.addcn.com/app/iOS/SRIMProjectSpec:
     - TWSecurityUtil
     - XPPresentModal
     - ZQAlertController
@@ -158,13 +158,13 @@ SPEC CHECKSUMS:
   PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
   SDWebImage: a31ee8e90a97303529e03fb0c333eae0eacb88e9
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
-  SRIMProject: 638f1ab4c87260f2e078ef69677de3b7fcf6de66
+  SRIMProject: a0672eee2f063bb08d149f58f51e6d26501fb357
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   TWSecurityUtil: b3fbece42df4dff76673f459f23aebf39af79c40
   "UITableView+FDTemplateLayoutCell": 234e1582bcc4e18461af91155123bb96538ed030
   XPPresentModal: ea1bcd9da2044417489c2b218d19a8cdcfe8dbee
   ZQAlertController: 0f4bb84469e11d0c225e37dddab7fe059477895f
 
-PODFILE CHECKSUM: e0a7142fe93d9d0e933e50c2b4be132261c8a04b
+PODFILE CHECKSUM: 84bbde6f184a29b836f8b17dadfc99b8006d40c3
 
 COCOAPODS: 1.11.3
