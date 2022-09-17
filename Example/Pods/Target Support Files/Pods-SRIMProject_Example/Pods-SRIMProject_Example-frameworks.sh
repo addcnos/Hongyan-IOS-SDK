@@ -182,14 +182,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SRIMProject/SRIMProject.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TWSecurityUtil/TWSecurityUtil.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TWSRIMProject/TWSRIMProject.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/XPPresentModal/XPPresentModal.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ZQAlertController/ZQAlertController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
@@ -198,14 +196,12 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/SRIMProject/SRIMProject.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/TWSecurityUtil/TWSecurityUtil.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/TWSRIMProject/TWSRIMProject.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/XPPresentModal/XPPresentModal.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ZQAlertController/ZQAlertController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

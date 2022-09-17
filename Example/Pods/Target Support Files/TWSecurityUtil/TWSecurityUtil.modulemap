@@ -1,6 +1,0 @@
-framework module TWSecurityUtil {
-  umbrella header "TWSecurityUtil-umbrella.h"
-
-  export *
-  module * { export * }
-}

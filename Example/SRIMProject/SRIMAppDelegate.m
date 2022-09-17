@@ -7,7 +7,7 @@
 //
 
 #import "SRIMAppDelegate.h"
-#import <SRIMProject/SRIMProject.h>
+#import <TWSRIMProject/SRIMProject.h>
 #ifdef NSFoundationVersionNumber_iOS_9_x_Max
 // 这里是iOS10需要用到的框架
 #import <UserNotifications/UserNotifications.h>
