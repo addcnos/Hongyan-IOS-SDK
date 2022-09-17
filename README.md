@@ -16,7 +16,16 @@ SDK 兼容 iOS9
 
 #### 1. 引入SDK
 
-git clone 源码, 并将 SDK 拖进项目
+```ruby
+target 'TestDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TestDemo
+  pod 'TWSRIMProject'
+
+end
+```
 
 
 #### 2. 初始化SDK

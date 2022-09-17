@@ -89,7 +89,7 @@
 		90EFECF83EDDEFBE28384C98 /* Pods-SRIMProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRIMProject_Example.debug.xcconfig"; path = "Target Support Files/Pods-SRIMProject_Example/Pods-SRIMProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		918DCFD2CD8071E92CD5D451 /* Pods-SRIMProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SRIMProject_Example.release.xcconfig"; path = "Target Support Files/Pods-SRIMProject_Example/Pods-SRIMProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9B025EBD0AA873C2999362C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C6BE673258A65053BDEF0EE3 /* SRIMProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SRIMProject.podspec; path = ../SRIMProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6BE673258A65053BDEF0EE3 /* TWSRIMProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWSRIMProject.podspec; path = ../TWSRIMProject.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,7 +228,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				C6BE673258A65053BDEF0EE3 /* SRIMProject.podspec */,
+				C6BE673258A65053BDEF0EE3 /* TWSRIMProject.podspec */,
 				9B025EBD0AA873C2999362C5 /* README.md */,
 				3FADB15CA7C3451BEF6BFC57 /* LICENSE */,
 			);
@@ -284,7 +284,7 @@
 			attributes = {
 				CLASSPREFIX = SRIM;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "addcnos";
+				ORGANIZATIONNAME = addcnos;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 2RA5LSHPUJ;
@@ -395,14 +395,12 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SRIMProject/SRIMProject.framework",
 				"${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
-				"${BUILT_PRODUCTS_DIR}/TWSecurityUtil/TWSecurityUtil.framework",
+				"${BUILT_PRODUCTS_DIR}/TWSRIMProject/TWSRIMProject.framework",
 				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
-				"${BUILT_PRODUCTS_DIR}/XPPresentModal/XPPresentModal.framework",
-				"${BUILT_PRODUCTS_DIR}/ZQAlertController/ZQAlertController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -412,14 +410,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SRIMProject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketRocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWSecurityUtil.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWSRIMProject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XPPresentModal.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZQAlertController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
