@@ -16,123 +16,138 @@ PODS:
     - AFNetworking/NSURLSession
   - HHTransition (2.0.1)
   - Masonry (1.1.0)
-  - MJExtension (3.2.1)
-  - MJRefresh (3.4.3)
-  - PINCache (2.3)
-  - SDWebImage (5.9.3):
-    - SDWebImage/Core (= 5.9.3)
-  - SDWebImage/Core (5.9.3)
-  - SocketRocket (0.5.1)
-  - SRIMProject (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - SRIMProject/SRIMClient (= 1.4.5.3)
-    - SRIMProject/SRIMCommonHeaders (= 1.4.5.3)
-    - SRIMProject/SRIMExtension (= 1.4.5.3)
-    - SRIMProject/SRIMNetworkManager (= 1.4.5.3)
-    - SRIMProject/SRIMNotification (= 1.4.5.3)
-    - SRIMProject/SRIMUI (= 1.4.5.3)
-    - TTTAttributedLabel
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
-  - SRIMProject/SRIMClient (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - SRIMProject/SRIMCommonHeaders
-    - SRIMProject/SRIMNetworkManager
-    - SRIMProject/SRIMNotification
-    - TTTAttributedLabel
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
-  - SRIMProject/SRIMCommonHeaders (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - TTTAttributedLabel
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
-  - SRIMProject/SRIMExtension (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - TTTAttributedLabel
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
-  - SRIMProject/SRIMNetworkManager (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - SRIMProject/SRIMCommonHeaders
-    - SRIMProject/SRIMExtension
-    - TTTAttributedLabel
-    - TWSecurityUtil (~> 0.0.10)
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
-  - SRIMProject/SRIMNotification (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - SRIMProject/SRIMCommonHeaders
-    - TTTAttributedLabel
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
-  - SRIMProject/SRIMUI (1.4.5.3):
-    - AFNetworking (~> 3.0)
-    - Masonry
-    - MJExtension
-    - MJRefresh
-    - PINCache
-    - SDWebImage
-    - SocketRocket
-    - SRIMProject/SRIMClient
-    - SRIMProject/SRIMCommonHeaders
-    - SRIMProject/SRIMExtension
-    - SRIMProject/SRIMNetworkManager
-    - TTTAttributedLabel
-    - "UITableView+FDTemplateLayoutCell (= 1.4)"
-    - ZQAlertController (= 2.0.0-alpha)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
+    - PINCache/Core
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - SocketRocket (0.6.0)
   - TTTAttributedLabel (2.0.0)
-  - TWSecurityUtil (0.0.10)
+  - TWSRIMProject (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - TWSRIMProject/SRIMClient (= 1.0.0)
+    - TWSRIMProject/SRIMCommonHeaders (= 1.0.0)
+    - TWSRIMProject/SRIMExtension (= 1.0.0)
+    - TWSRIMProject/SRIMNetworkManager (= 1.0.0)
+    - TWSRIMProject/SRIMNotification (= 1.0.0)
+    - TWSRIMProject/SRIMUI (= 1.0.0)
+    - TWSRIMProject/TWSecurityUtil (= 1.0.0)
+    - TWSRIMProject/ZQAlertController (= 1.0.0)
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/SRIMClient (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - TWSRIMProject/SRIMCommonHeaders
+    - TWSRIMProject/SRIMNetworkManager
+    - TWSRIMProject/SRIMNotification
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/SRIMCommonHeaders (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/SRIMExtension (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/SRIMNetworkManager (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - TWSRIMProject/SRIMCommonHeaders
+    - TWSRIMProject/SRIMExtension
+    - TWSRIMProject/TWSecurityUtil
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/SRIMNotification (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - TWSRIMProject/SRIMCommonHeaders
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/SRIMUI (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - TWSRIMProject/SRIMClient
+    - TWSRIMProject/SRIMCommonHeaders
+    - TWSRIMProject/SRIMExtension
+    - TWSRIMProject/SRIMNetworkManager
+    - TWSRIMProject/ZQAlertController
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/TWSecurityUtil (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
+  - TWSRIMProject/ZQAlertController (1.0.0):
+    - AFNetworking (~> 3.0)
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PINCache
+    - SDWebImage
+    - SocketRocket
+    - TTTAttributedLabel
+    - "UITableView+FDTemplateLayoutCell (= 1.4)"
   - "UITableView+FDTemplateLayoutCell (1.4)"
-  - XPPresentModal (0.2.0)
-  - ZQAlertController (2.0.0-alpha)
 
 DEPENDENCIES:
   - HHTransition (~> 2.0.1)
-  - SRIMProject (from `../`)
-  - XPPresentModal
+  - TWSRIMProject (from `../`)
 
 SPEC REPOS:
-  https://www.example.com/app/iOS/SRIMProjectSpec:
-    - TWSecurityUtil
-    - XPPresentModal
-    - ZQAlertController
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - HHTransition
@@ -140,31 +155,30 @@ SPEC REPOS:
     - MJExtension
     - MJRefresh
     - PINCache
+    - PINOperation
     - SDWebImage
     - SocketRocket
     - TTTAttributedLabel
     - "UITableView+FDTemplateLayoutCell"
 
 EXTERNAL SOURCES:
-  SRIMProject:
+  TWSRIMProject:
     :path: "../"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   HHTransition: e78adbfdcd504d2e668c4e75ceda27801167c097
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
-  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
-  SDWebImage: a31ee8e90a97303529e03fb0c333eae0eacb88e9
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
-  SRIMProject: 638f1ab4c87260f2e078ef69677de3b7fcf6de66
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
-  TWSecurityUtil: b3fbece42df4dff76673f459f23aebf39af79c40
+  TWSRIMProject: ebadae8ae215760b4299627739e3c11f5f04b654
   "UITableView+FDTemplateLayoutCell": 234e1582bcc4e18461af91155123bb96538ed030
-  XPPresentModal: ea1bcd9da2044417489c2b218d19a8cdcfe8dbee
-  ZQAlertController: 0f4bb84469e11d0c225e37dddab7fe059477895f
 
-PODFILE CHECKSUM: e0a7142fe93d9d0e933e50c2b4be132261c8a04b
+PODFILE CHECKSUM: a2bd8c7bee9cb7448fe5624133e536accd8558c5
 
 COCOAPODS: 1.11.3

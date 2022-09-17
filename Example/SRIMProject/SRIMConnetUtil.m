@@ -7,7 +7,7 @@
 //
 
 #import "SRIMConnetUtil.h"
-#import <SRIMProject/SRIMProject.h>
+#import <TWSRIMProject/SRIMProject.h>
 #import "SRIMDemoHeader.h"
 @implementation SRIMConnetUtil
 

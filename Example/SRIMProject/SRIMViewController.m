@@ -7,8 +7,7 @@
 //
 
 #import "SRIMViewController.h"
-#import <SRIMProject/SRIMProject.h>
-#import <XPPresentModal/XPPresentModal.h>
+#import <TWSRIMProject/SRIMProject.h>
 #import "ChatListExampleController.h"
 #import "ChatExampleController.h"
 #import "UIViewController+HHTransition.h"

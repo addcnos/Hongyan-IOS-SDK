@@ -6,7 +6,7 @@
 //  Copyright © 2019 addcnos. All rights reserved.
 // 為保障您的個資及財產安全，請勿在交易過程為保障您的個資及財產安全，請勿在交易過程中留下您的個人資料，以免個資外洩
 
-#import <SRIMProject/SRIMProject.h>
+#import <TWSRIMProject/SRIMProject.h>
 @class RemindMessageModel;
 NS_ASSUME_NONNULL_BEGIN
 

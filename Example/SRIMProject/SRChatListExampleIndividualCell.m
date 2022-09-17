@@ -7,7 +7,7 @@
 //
 
 #import "SRChatListExampleIndividualCell.h"
-#import <SRIMProject/SRIMProject.h>
+#import <TWSRIMProject/SRIMProject.h>
 #import "RemindMessageModel.h"
 
 @implementation SRChatListExampleIndividualCell
