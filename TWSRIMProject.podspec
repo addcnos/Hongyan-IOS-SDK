@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'TWSRIMProject'
-    s.version          = '1.4.5.3'
+    s.version          = '1.0.0'
     s.summary          = '数睿IM核心基础组件库'
     
     # This description is used to generate tags and improve search results.
