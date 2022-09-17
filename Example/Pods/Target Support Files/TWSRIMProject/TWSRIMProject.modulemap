@@ -1,0 +1,6 @@
+framework module TWSRIMProject {
+  umbrella header "TWSRIMProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

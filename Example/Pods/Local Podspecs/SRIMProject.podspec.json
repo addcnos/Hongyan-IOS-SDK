@@ -1,9 +1,9 @@
 {
-  "name": "SRIMProject",
+  "name": "TWSRIMProject",
   "version": "1.4.5.3",
   "summary": "数睿IM核心基础组件库",
   "description": "数睿IM核心基础库",
-  "homepage": "https://www.example.com/app/iOS/SRIMProject",
+  "homepage": "https://github.com/addcnos/Hongyan-IOS-SDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,21 +12,21 @@
     "addcnos": ""
   },
   "source": {
-    "git": "https://www.example.com/app/iOS/SRIMProject.git",
+    "git": "https://github.com/addcnos/Hongyan-IOS-SDK.git",
     "tag": "1.4.5.3"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "public_header_files": "SRIMProject/Classes/SRIMProject.h",
-  "source_files": "SRIMProject/Classes/SRIMProject.h",
+  "public_header_files": "TWSRIMProject/Classes/TWSRIMProject.h",
+  "source_files": "TWSRIMProject/Classes/TWSRIMProject.h",
   "prefix_header_contents": [
     "#import <UIKit/UIKit.h>",
     "#import <Foundation/Foundation.h>"
   ],
   "resource_bundles": {
-    "SRIMProject": [
-      "SRIMProject/Assets/*"
+    "TWSRIMProject": [
+      "TWSRIMProject/Assets/*"
     ]
   },
   "dependencies": {
@@ -64,20 +64,20 @@
   "subspecs": [
     {
       "name": "SRIMCommonHeaders",
-      "source_files": "SRIMProject/Classes/SRIMCommonHeaders/*.{h}"
+      "source_files": "TWSRIMProject/Classes/SRIMCommonHeaders/*.{h}"
     },
     {
       "name": "SRIMExtension",
-      "source_files": "SRIMProject/Classes/SRIMExtension/*.{h,m}"
+      "source_files": "TWSRIMProject/Classes/SRIMExtension/*.{h,m}"
     },
     {
       "name": "SRIMNetworkManager",
-      "source_files": "SRIMProject/Classes/SRIMNetworkManager/**/*.{h,m}",
+      "source_files": "TWSRIMProject/Classes/SRIMNetworkManager/**/*.{h,m}",
       "dependencies": {
-        "SRIMProject/SRIMCommonHeaders": [
+        "TWSRIMProject/SRIMCommonHeaders": [
 
         ],
-        "SRIMProject/SRIMExtension": [
+        "TWSRIMProject/SRIMExtension": [
 
         ],
         "TWSecurityUtil": [
@@ -87,42 +87,42 @@
     },
     {
       "name": "SRIMNotification",
-      "source_files": "SRIMProject/Classes/SRIMNotification/*.{h,m}",
+      "source_files": "TWSRIMProject/Classes/SRIMNotification/*.{h,m}",
       "dependencies": {
-        "SRIMProject/SRIMCommonHeaders": [
+        "TWSRIMProject/SRIMCommonHeaders": [
 
         ]
       }
     },
     {
       "name": "SRIMClient",
-      "source_files": "SRIMProject/Classes/SRIMClient/*.{h,m}",
+      "source_files": "TWSRIMProject/Classes/SRIMClient/*.{h,m}",
       "dependencies": {
-        "SRIMProject/SRIMNotification": [
+        "TWSRIMProject/SRIMNotification": [
 
         ],
-        "SRIMProject/SRIMCommonHeaders": [
+        "TWSRIMProject/SRIMCommonHeaders": [
 
         ],
-        "SRIMProject/SRIMNetworkManager": [
+        "TWSRIMProject/SRIMNetworkManager": [
 
         ]
       }
     },
     {
       "name": "SRIMUI",
-      "source_files": "SRIMProject/Classes/SRIMUI/*.{h,m}",
+      "source_files": "TWSRIMProject/Classes/SRIMUI/*.{h,m}",
       "dependencies": {
-        "SRIMProject/SRIMClient": [
+        "TWSRIMProject/SRIMClient": [
 
         ],
-        "SRIMProject/SRIMCommonHeaders": [
+        "TWSRIMProject/SRIMCommonHeaders": [
 
         ],
-        "SRIMProject/SRIMNetworkManager": [
+        "TWSRIMProject/SRIMNetworkManager": [
 
         ],
-        "SRIMProject/SRIMExtension": [
+        "TWSRIMProject/SRIMExtension": [
 
         ]
       }

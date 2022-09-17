@@ -4,7 +4,7 @@ platform :ios, '9.0'
 #source 'https://www.example.com/app/iOS/SRIMProjectSpec'
 source 'https://github.com/CocoaPods/Specs.git'
 target 'SRIMProject_Example' do
-  pod 'SRIMProject', :path => '../'
+  pod 'TWSRIMProject', :path => '../'
   pod 'XPPresentModal'
   pod 'HHTransition', '~> 2.0.1'
   target 'SRIMProject_Tests' do
